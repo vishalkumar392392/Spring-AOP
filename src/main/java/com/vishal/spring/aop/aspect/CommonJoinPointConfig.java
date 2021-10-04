@@ -9,8 +9,8 @@ public class CommonJoinPointConfig {
 	
 	
 	@Pointcut("@annotation(com.vishal.spring.aop.aspect.Track)")
-	public void trackTimeAnnotation() {
+	public void trackTimeAnnotation(Track track) {
 		
 	}
-
+	
 }
