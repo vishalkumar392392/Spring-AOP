@@ -31,6 +31,8 @@
 		<url>https://github.com/vishalkumar392392/Spring-AOP.git</url>
 		<!-- <connection>scm:git:git@github.com:vishalkumar392392/Spring-AOP.git</connection> -->
 		<connection>scm:git:https://github.com/vishalkumar392392/Spring-AOP.git</connection>
+		<developerConnection>scm:git:https://github.com/vishalkumar392392/Spring-AOP.git</developerConnection>
+
 		<!-- <developerConnection>scm:git:git@github.com:vishalkumar392392/Spring-AOP.git</developerConnection> -->
 		<tag>Spring-AOP-0.0.1</tag>
 	</scm>
