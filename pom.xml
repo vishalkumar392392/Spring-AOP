@@ -17,6 +17,14 @@
 		<java.version>1.8</java.version>
 	</properties>
 	
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>IN-L-C14F8DM-releases</name>
+			<url>http://localhost:8081/artifactory/vishal-libs-release</url>
+		</repository>
+	</distributionManagement>
+	
 	<scm>
 		<connection>scm:git:git@github.com:vishalkumar392392/Spring-AOP.git</connection>
 		<developerConnection>scm:git:git@github.com:vishalkumar392392/Spring-AOP.git</developerConnection>
@@ -72,7 +80,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
-				<version>3.0.0-M4</version>
+				<version>2.5.1</version>
 				<dependencies>
 					<dependency>
 						<groupId>org.apache.maven.shared</groupId>
