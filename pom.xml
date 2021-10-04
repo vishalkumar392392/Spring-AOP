@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -16,7 +18,7 @@
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
-	
+
 	<distributionManagement>
 		<repository>
 			<id>central</id>
@@ -24,12 +26,14 @@
 			<url>http://localhost:8081/artifactory/vishal-libs-release</url>
 		</repository>
 	</distributionManagement>
-	
+
 	<scm>
-		<connection>scm:git:git@github.com:vishalkumar392392/Spring-AOP.git</connection>
-		<developerConnection>scm:git:git@github.com:vishalkumar392392/Spring-AOP.git</developerConnection>
-	  <tag>Spring-AOP-0.0.1</tag>
-  </scm>
+		<url>https://github.com/vishalkumar392392/Spring-AOP.git</url>
+		<!-- <connection>scm:git:git@github.com:vishalkumar392392/Spring-AOP.git</connection> -->
+		<connection>scm:git:https://github.com/vishalkumar392392/Spring-AOP.git</connection>
+		<!-- <developerConnection>scm:git:git@github.com:vishalkumar392392/Spring-AOP.git</developerConnection> -->
+		<tag>Spring-AOP-0.0.1</tag>
+	</scm>
 
 	<dependencies>
 		<dependency>
