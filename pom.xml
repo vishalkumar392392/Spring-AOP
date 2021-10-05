@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.vishal.spring.aop</groupId>
 	<artifactId>Spring-AOP</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.2</version>
 	<name>Spring-AOP</name>
 	<description>Spring Aop</description>
 
