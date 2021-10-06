@@ -29,7 +29,7 @@ public class SpringAopApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		// test comments test1 test2 
+		// test comments test1 test2 test3
 		logger.info("{}->"+ bussiness1.calculateSomething());
 		
 		logger.info("{}->"+ bussiness2.calculateSomething());
