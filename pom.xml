@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.vishal.spring.aop</groupId>
 	<artifactId>Spring-AOP</artifactId>
-	<version>1.0.6-SNAPSHOT</version>
+	<version>1.0.6</version>
 	<name>Spring-AOP</name>
 	<description>Spring Aop</description>
 
@@ -32,7 +32,7 @@
 		<developerConnection>scm:git:https://github.com/vishalkumar392392/Spring-AOP.git</developerConnection>
 
 		<!-- <developerConnection>scm:git:git@github.com:vishalkumar392392/Spring-AOP.git</developerConnection> -->
-    <tag>HEAD</tag>
+    <tag>Spring-AOP-1.0.6</tag>
   </scm>
 
 	<dependencies>
